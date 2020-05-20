@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/4b641ab1-b442-4c18-95e9-016ba6bab2ea/resourceGroups/DevMachine/providers/Microsoft.Web/sites/naokisaito",
+  "appService.deploySubpath": ""
+}
