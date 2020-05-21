@@ -25,8 +25,6 @@
       <h1 class="pokemon-name">Scorbunny</h1>
       <div class="bar">
         <div class="type fire">Fire</div>
-        <div class="type fire">Fire</div>
-        <div class="type fire">Fire</div>
       </div>
       <div class="bar">
         <div class="info-item">
@@ -66,5 +64,20 @@
       </div>
     </div>
   </div>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js")
+        .then((event) => {
+          console.log("registered service-worker successfully");
+        }, (error) => {
+          console.log("registration of service-worker failed");
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+      })
+    }
+  </script>
 </body>
 </html>
