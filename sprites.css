@@ -1,0 +1,19 @@
+.sprite-small {
+  background: url(./sprites/pokemon-sprites.png) no-repeat;
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+  z-index: 99999;
+}
+
+.scorbunny {
+  background-position: -295px 10px;
+}
+
+.raboot {
+  background-position: -390px 7px;
+}
+
+.cinderace {
+  background-position: -485px -3px;
+}
